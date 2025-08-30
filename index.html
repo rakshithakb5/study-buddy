@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Study Buddy - Notes & Flashcards</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>📚 Study Buddy</h1>
+
+  <div class="topbar">
+    <button id="toggle-theme">🌙 Toggle Dark Mode</button>
+    <span id="sync-status" title="Sync status">Offline</span>
+  </div>
+
+  <section id="note-section">
+    <h2>✏️ Add Note</h2>
+    <input id="note-title" placeholder="Note title">
+    <textarea id="note-content" placeholder="Note content"></textarea>
+    <button id="add-note">Add Note</button>
+  </section>
+
+  <section id="notes-list">
+    <h2>📝 Notes</h2>
+    <ul id="notes"></ul>
+  </section>
+
+  <section id="flashcards">
+    <h2>🎴 Flashcards</h2>
+    <button id="study-mode">Start Study</button>
+
+    <div id="card" class="hidden">
+      <p id="card-text"></p>
+      <div class="card-actions">
+        <button id="flip">Flip</button>
+        <button id="correct" class="ok">✔ Correct</button>
+        <button id="wrong" class="bad">✖ Wrong</button>
+        <button id="next">Next</button>
+      </div>
+
+      <div class="stats-row">
+        <span id="per-card-stats">0 correct / 0 attempts</span>
+      </div>
+
+      <div class="progress-wrap">
+        <div class="progress-bar" id="progress-bar" style="width:0%"></div>
+      </div>
+      <p id="progress-label">Mastery: 0%</p>
+
+      <p id="timer">Time Spent: 0h 0m 0s</p>
+    </div>
+  </section>
+
+  <!-- Optional cloud sync -->
+  <!-- <script type="module" src="firebase.js"></script> -->
+  <script src="app.js"></script>
+</body>
+</html>

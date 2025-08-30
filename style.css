@@ -1,0 +1,25 @@
+body { font-family: system-ui, sans-serif; margin: 20px; background: #f9fafb; color: #111; transition: background .3s,color .3s; }
+h1 { text-align: center; }
+.topbar { display:flex; gap:12px; align-items:center; justify-content:flex-end; margin:8px 0 16px; }
+#sync-status { font-size:12px; opacity:.8; padding:4px 8px; border-radius:6px; background:#e5e7eb; }
+
+section { margin:20px 0; padding:15px; border:1px solid #ddd; border-radius:8px; background:#fff; }
+input, textarea { width:100%; margin:5px 0; padding:8px; }
+button { margin:5px; padding:8px 12px; border:none; background:#3b82f6; color:#fff; border-radius:6px; cursor:pointer; }
+button:hover { background:#2563eb; }
+button.ok { background:#16a34a; } button.ok:hover { background:#15803d; }
+button.bad { background:#ef4444; } button.bad:hover { background:#dc2626; }
+
+.hidden { display:none; }
+#card { border:1px solid #333; padding:20px; border-radius:8px; text-align:center; background:#f3f4f6; }
+.card-actions { display:flex; gap:8px; justify-content:center; flex-wrap:wrap; }
+.stats-row { margin-top:6px; font-size:14px; opacity:.9; }
+
+.progress-wrap { width:100%; background:#e5e7eb; border-radius:10px; overflow:hidden; height:14px; margin:10px 0; }
+.progress-bar { height:100%; background:#10b981; width:0%; transition: width .3s; }
+
+body.dark { background:#0f172a; color:#e2e8f0; }
+body.dark section { background:#1e293b; border-color:#334155; }
+body.dark #card { background:#334155; }
+body.dark #sync-status { background:#334155; }
+body.dark .progress-wrap { background:#334155; }
