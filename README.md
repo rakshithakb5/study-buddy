@@ -26,7 +26,8 @@ Features include **dark mode**, **time tracking**, **scoring system**, **progres
 
 ### 1. Clone repo
 ```bash
-git clone https://github.com/<your-username>/study-buddy.git
+git clone https://github.com/rakshithakb
+5/study-buddy.git
 cd study-buddy
 ```
 ### 2. Run locally
