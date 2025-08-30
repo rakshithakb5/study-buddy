@@ -1,10 +1,7 @@
 # 📚 Study Buddy - Notes & Flashcards App
 
 A simple yet powerful **Notes & Flashcards** web app to help with studying.  
-Features include **dark mode**, **time tracking**, **scoring system**, **progress bar**, and optional **Firebase sync** for cross-device access.
-
-👉 **Live Demo:** [Study Buddy](https://<your-username>.github.io/study-buddy/)
-
+Features include **dark mode**, **time tracking**, **scoring system**, **progress bar**
 ---
 
 ## ✨ Features
@@ -21,7 +18,6 @@ Features include **dark mode**, **time tracking**, **scoring system**, **progres
 ## 🛠️ Tech Stack
 - **HTML5 / CSS3 / JavaScript**
 - **LocalStorage** (for offline persistence)
-- **Firebase (optional)** – sync across devices
 - **GitHub Pages** (deployment)
 
 ---
