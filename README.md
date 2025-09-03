@@ -11,7 +11,6 @@ Features include **dark mode**, **time tracking**, **scoring system**, **progres
 - ⏱️ Timer to track total study hours
 - ✔ Track correct/wrong answers per card
 - 📊 Mastery progress bar (% of cards mastered)
-- ☁️ (Optional) Firebase sync → notes + progress across devices
 
 ---
 
