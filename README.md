@@ -21,29 +21,6 @@ Features include **dark mode**, **time tracking**, **scoring system**, **progres
 
 ---
 
-## 🚀 Getting Started
-
-### 1. Clone repo
-```bash
-git clone https://github.com/rakshithakb
-5/study-buddy.git
-cd study-buddy
-```
-### 2. Run locally
-
-No build tools needed. Just open index.html in your browser.
-👉 Or use VS Code extension Live Server for auto-refresh.
-
-### 3. Deploy
-
-Push to GitHub → Enable GitHub Pages in repo settings.
-Your app will be live at:
-```perl
-https://rakshithakb
-5.github.io/study-buddy/
-```
-
----
 
 ## 🤝 Contributing
 
